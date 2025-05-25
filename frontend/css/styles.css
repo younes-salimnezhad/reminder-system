@@ -1,9 +1,16 @@
 body {
   font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #808080, #2196F3);
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
 }
+
 .card {
   margin-top: 20px;
 }
+
 .table th, .table td {
   text-align: right;
 }
+
