@@ -3,9 +3,9 @@ export async function sendEmail(to, subject, message) {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      service_id: 'YOUR_EMAILJS_SERVICE_ID',
-      template_id: 'YOUR_EMAILJS_TEMPLATE_ID',
-      user_id: 'YOUR_EMAILJS_USER_ID',
+      service_id: EMAILJS_SERVICE_ID,
+      template_id: EMAILJS_TEMPLATE_ID,
+      user_id: EMAILJS_USER_ID,
       template_params: { to_email: to, subject, message }
     })
   });
