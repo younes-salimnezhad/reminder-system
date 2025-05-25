@@ -1,4 +1,4 @@
-const workerUrl = 'https://reminder-system.your-account.workers.dev'; // آدرس Worker شما را جایگزین کنید
+const workerUrl = 'https://reminder-system.ysalimnezhad.workers.dev'; // آدرس Worker شما را جایگزین کنید
 
 // ثبت‌نام
 document.getElementById('signup-form')?.addEventListener('submit', async (e) => {
