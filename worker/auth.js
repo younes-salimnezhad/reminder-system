@@ -1,4 +1,7 @@
-import { v4 as uuidv4 } from "uuid";
+// ... existing code ...
+const workerUrl = 'https://reminder-system.pages.dev/'; // این خط نیاز به تغییر دارد
+
+// ... existing code ...import { v4 as uuidv4 } from "uuid";
 
 export async function handleLogin(request) {
   const { username, password } = await request.json();
