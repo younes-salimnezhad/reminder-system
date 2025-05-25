@@ -4,6 +4,49 @@ body {
 .card {
   margin-top: 20px;
 }
-.table th, .table td {
+.table th,
+.table td {
   text-align: right;
+}
+.card-body {
+  padding: 15px;
+}
+
+.mb-3 {
+  margin-bottom: 0.5rem !important;
+}
+
+.card-title {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+
+hr {
+  margin: 0.5rem 0;
+}
+.nav-tabs {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.tab-content form button {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul#authTabs {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 1rem;
 }

@@ -4,11 +4,11 @@ compatibility_date = "2025-05-23"
 
 [[kv_namespaces]]
 binding = "USERS"
-id = "YOUR_KV_USERS_ID"
+id = "2de0242c02f942cd8adaf858fab372ec"
 
 [[kv_namespaces]]
 binding = "REMINDERS"
-id = "YOUR_KV_REMINDERS_ID"
+id = "946f50bb77b54c1c9cab71df19f22885"
 
 [triggers]
 crons = ["*/5 * * * *"] # بررسی هر 5 دقیقه
